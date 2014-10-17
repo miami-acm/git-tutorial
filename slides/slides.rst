@@ -9,4 +9,5 @@ Git Tutorial
 Intro
 =====
 
-Git is a free version conrol tool.
+Git is a free and open source version control tool.
+
