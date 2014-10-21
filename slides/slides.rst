@@ -105,6 +105,9 @@ Git Commands
 	Commit files in the staging area. :bash:`<message>` should be a
 	message that explains the changes made in the commit.
 
+:bash:`git help <command>`
+	Get help for the given command
+
 =================
 More Git Commands
 =================
