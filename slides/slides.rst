@@ -147,3 +147,13 @@ Let's create an empty Git repository at :bash:`~/git-repo/`
 	#. :bash:`cd ~/git-repo`
 	#. :bash:`git init`
 	#. Profit!
+
+=====================
+Your First Git Commit
+=====================
+
+Let's add a readme file to our Git repo:
+
+	#. :bash:`YOUR_EDITOR README.md`
+	#. :bash:`git add README.md`
+	#. :bash:`git commit -m 'add readme file'`
