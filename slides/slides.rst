@@ -155,5 +155,8 @@ Your First Git Commit
 Let's add a readme file to our Git repo:
 
 	#. :bash:`YOUR_EDITOR README.md`
+	#. :bash:`git status`
 	#. :bash:`git add README.md`
+	#. :bash:`git status`
 	#. :bash:`git commit -m 'add readme file'`
+	#. :bash:`git status`
