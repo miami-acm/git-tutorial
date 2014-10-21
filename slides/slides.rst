@@ -160,3 +160,13 @@ Let's add a readme file to our Git repo:
 	#. :bash:`git status`
 	#. :bash:`git commit -m 'add readme file'`
 	#. :bash:`git status`
+
+===================
+What Just Happened?
+===================
+
+Let's take a minute to look at what just happened:
+
+	#. Edit a file
+	#. Add that file to the staging area
+	#. Commit changes in the staging area to the repository
