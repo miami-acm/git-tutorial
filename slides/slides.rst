@@ -229,3 +229,13 @@ Commit Changes to Repository
 	$ git status
 	On branch master
 	nothing to commit, working directory clean
+
+===================
+What Just Happened?
+===================
+
+---------------
+Visual Overview
+---------------
+
+.. image:: images/file-lifecycle.png
