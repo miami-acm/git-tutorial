@@ -50,6 +50,30 @@ months, version 1.0 was released.
 Since 2005, has developed into one of the largest source code
 management tools.
 
+===========
+Basic Terms
+===========
+
+----------
+Repository
+----------
+
+A data structure, that contains, among other things a Historical
+record of changes in the repository.
+
+------
+Commit
+------
+
+A snapshot of your repository at a specific time. 
+
+------
+Branch
+------
+
+Single set of commits, generally used for a single
+purpose. Branches can be combined with :bash:`git merge`
+
 ==================
 Basic Git Workflow
 ==================
