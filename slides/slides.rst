@@ -167,3 +167,29 @@ Let's take a minute to look at what we just did:
 	#. Edit a file
 	#. Add that file to the staging area
 	#. Commit changes in the staging area to the repository
+
+On the next slides, we will look at each step more in depth with the
+:bash:`git status` command:
+
+===================
+What Just Happened?
+===================
+
+---------
+Edit File
+---------
+
+.. code-block:: bash
+
+	$ vi README.md
+	$ git status
+	On branch master
+
+	Initial commit
+
+	Untracked files:
+	  (use "git add <file>..." to include in what will be committed)
+
+		README.md
+
+	nothing added to commit but untracked files present (use "git add" to track)
