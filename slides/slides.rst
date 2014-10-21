@@ -214,3 +214,18 @@ Add File To Staging Area
 	  (use "git rm --cached <file>..." to unstage)
 
 		new file:   README.md
+
+===================
+What Just Happened?
+===================
+
+----------------------------
+Commit Changes to Repository
+----------------------------
+
+.. code-block:: bash
+
+	$ git commit -m 'add readme file'
+	$ git status
+	On branch master
+	nothing to commit, working directory clean
