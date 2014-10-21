@@ -1,3 +1,9 @@
+.. role:: raw-html(raw)
+   :format: html
+
+.. role:: bash(code)
+   :language: bash
+
 ============
 Git Tutorial
 ============
@@ -43,3 +49,19 @@ months, version 1.0 was released.
 
 Since 2005, has developed into one of the largest source code
 management tools.
+
+==================
+Basic Git Workflow
+==================
+
+	#. Create repository
+	#. Clone repository to local system
+	#. Make changes to files
+	#. Commit changes to git repository
+	#. Push commits to remote
+
+======================
+Picture of File System
+======================
+
+.. image:: images/stages.png
