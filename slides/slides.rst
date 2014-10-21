@@ -37,8 +37,10 @@ What goes in is what comes out
 Git is Born
 ===========
 
-`I'm an egotistical bastard, and I name all my projects after
-myself. First Linux, now git.` - Linus Torvalds
+	I'm an egotistical bastard, and I name all my projects after
+	myself. First Linux, now git.
+
+	-- Linus Torvalds
 
 Linus developed Git during a two week coding session. After two
 months, version 1.0 was released.
