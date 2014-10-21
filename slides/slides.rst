@@ -162,7 +162,7 @@ Let's add a readme file to our Git repo:
 What Just Happened?
 ===================
 
-Let's take a minute to look at what just happened:
+Let's take a minute to look at what we just did:
 
 	#. Edit a file
 	#. Add that file to the staging area
