@@ -89,3 +89,22 @@ Picture of File System
 ======================
 
 .. image:: images/stages.png
+
+============
+Git Commands
+============
+
+------
+Basics
+------
+
+:bash:`git init`
+	Create a new, empty repository in the current directory
+
+:bash:`git add <file>`
+	Add :bash:`<file>` to the staging area. Files in the staging area
+	will be added to the next commit.
+
+:bash:`git commit -m '<message>'`
+	Commit files in the staging area. :bash:`<message>` should be a
+	message that explains the changes made in the commit.
