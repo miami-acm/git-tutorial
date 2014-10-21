@@ -1,3 +1,6 @@
+.. role:: strike
+	:class: strike
+
 ============
 Git Tutorial
 ============
@@ -11,9 +14,9 @@ Intro
 
 Git is a free and open source version control tool.
 
-===============================
-A Brief History of ~~Time~~ Git
-===============================
+=====================================
+A Brief History of :strike:`Time` Git
+=====================================
 In 2002, the Linux source code began to be managed by BitKeeper (proprietary software).
 
 BitKeeper revoked license for Linux in 2005.
