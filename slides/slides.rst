@@ -27,11 +27,9 @@ BitKeeper revoked license for Linux in 2005.
 Requirements
 ============
 
-Distributed
-
-Performs efficiently
-
-What goes in is what comes out
+	- Distributed
+	- Performs efficiently
+	- What goes in is what comes out
 
 ===========
 Git is Born
