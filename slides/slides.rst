@@ -71,7 +71,7 @@ A snapshot of your repository at a specific time.
 Branch
 ------
 
-Single set of commits, generally used for a single
+Set of commits, generally used for a single
 purpose. Branches can be combined with :bash:`git merge`
 
 ==================
