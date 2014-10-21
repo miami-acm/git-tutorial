@@ -58,7 +58,7 @@ Basic Terms
 Repository
 ----------
 
-A data structure, that contains, among other things a Historical
+A data structure, that contains, among other things a historical
 record of changes in the repository.
 
 ------
