@@ -193,3 +193,24 @@ Edit File
 		README.md
 
 	nothing added to commit but untracked files present (use "git add" to track)
+
+===================
+What Just Happened?
+===================
+
+------------------------
+Add File To Staging Area
+------------------------
+
+.. code-block:: bash
+
+	$ git add README.md
+	$ git status
+	On branch master
+
+	Initial commit
+
+	Changes to be committed:
+	  (use "git rm --cached <file>..." to unstage)
+
+		new file:   README.md
