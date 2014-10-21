@@ -122,3 +122,25 @@ More Git Commands
 		- current branch
 		- modified files
 		- and more!
+
+================
+First Time Setup
+================
+
+Before we do any work with Git, we have to set some settings:
+
+	#. :bash:`git config --global user.name "My Name"`
+	#. :bash:`git config --global user.email email@email.com`
+	#. :bash:`git config --global core.editor SOME_EDITOR`
+	#. :bash:`git config --global push.default simple`
+
+===================
+Your First Git Repo
+===================
+
+Let's create an empty Git repository at :bash:`~/git-repo/`
+
+	#. :bash:`mkdir ~/git-repo`
+	#. :bash:`cd ~/git-repo`
+	#. :bash:`git init`
+	#. Profit!
