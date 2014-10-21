@@ -94,10 +94,6 @@ Picture of File System
 Git Commands
 ============
 
-------
-Basics
-------
-
 :bash:`git init`
 	Create a new, empty repository in the current directory
 
