@@ -108,3 +108,21 @@ Basics
 :bash:`git commit -m '<message>'`
 	Commit files in the staging area. :bash:`<message>` should be a
 	message that explains the changes made in the commit.
+
+=================
+More Git Commands
+=================
+
+:bash:`git checkout <branch>`
+	Switch to the branch identified by :bash:`<branch>`. To create a
+	new branch with this command, add the :bash:`-b` flag.
+
+:bash:`git checkout <file>`
+	When a file on disk differs from the version stored in Git, use
+	this to revert :bash:`<file>` to the state stored in Git.
+
+:bash:`git status`
+	View the current status of the repository. Shows:
+		- current branch
+		- modified files
+		- and more!
