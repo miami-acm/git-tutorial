@@ -231,7 +231,7 @@ $ <span class="kw">git</span> status
 <section id="lets-try-something-else" class="slide level1">
 <h1>Let's Try Something Else</h1>
 <h2 id="remote-repositories">Remote Repositories</h2>
-<p>A <em>remote</em> saves the repo to another location such as a server (like GitHub)</p>
+<p>A <em>remote</em> is a copy of the repo in another location such as a server (like GitHub)</p>
 <p>Save commits to a remote repository using</p>
 <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> push origin master</code></pre>
 <p>Where 'origin' is the remote's name and 'master' is the current branch's name</p>
@@ -247,6 +247,32 @@ $ <span class="kw">git</span> status
 <h2 id="branches-1">Branches</h2>
 <p>Taking full advantage of git branching</p>
 <p><img src="images/git-branching.png" alt="image" /></p>
+</section>
+<section id="branching" class="slide level1">
+<h1>Branching</h1>
+<p>Create a new branch with</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> branch newbranchname</code></pre>
+<p>Switch to the branch with</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> checkout newbranchname</code></pre>
+<p>Make some changes and commit them</p>
+</section>
+<section id="branching-1" class="slide level1">
+<h1>Branching</h1>
+<p>After committing, switch back to the 'master' branch</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> checkout master</code></pre>
+<p>Look for your changes</p>
+<h2 id="what-happened">What happened?</h2>
+</section>
+<section id="branching-2" class="slide level1">
+<h1>Branching</h1>
+<p>Merge your changes into the main development line</p>
+<pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> merge newbranchname</code></pre>
+<p>Now you should see your changes from your branch</p>
+</section>
+<section id="branching-3" class="slide level1">
+<h1>Branching</h1>
+<p>Large projects will have <strong>many</strong> branches</p>
+<p><img src="images/large-branching.png" alt="image" /></p>
 </section>
     </div>
   </div>

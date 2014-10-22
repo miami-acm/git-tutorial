@@ -282,3 +282,54 @@ Taking full advantage of git branching
 
 .. image:: images/git-branching.png
 
+=========
+Branching
+=========
+Create a new branch with
+
+.. code-block:: bash
+	
+	$ git branch newbranchname
+	
+Switch to the branch with 
+
+.. code-block:: bash
+
+	$ git checkout newbranchname
+	
+Make some changes and commit them
+
+=========
+Branching
+=========
+After committing, switch back to the 'master' branch
+
+.. code-block:: bash
+	
+	$ git checkout master
+
+Look for your changes
+
+--------------
+What happened?
+--------------
+
+=========
+Branching
+=========
+
+Merge your changes into the main development line
+
+.. code-block:: bash
+
+	$ git merge newbranchname
+	
+Now you should see your changes from your branch
+
+=========
+Branching
+=========
+
+Large projects will have **many** branches
+
+.. image:: images/large-branching.png
