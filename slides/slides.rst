@@ -240,6 +240,25 @@ Visual Overview
 
 .. image:: images/file-lifecycle.png
 
+===================
+What Just Happened?
+===================
+
+-------------
+Check the Log
+-------------
+
+.. code-block:: bash
+
+	$ git log
+	commit c9fd3e8dc41e0649fc3ba0e88bcc2f41a97d8144
+	Author: rogerskw <rogerskw@miamioh.edu>
+	Date:   Wed Oct 22 15:00:53 2014 -0400
+
+    	asdf
+
+If you have many commits, the `less` command will be used.
+
 ========================
 Let's Try Something Else
 ========================
