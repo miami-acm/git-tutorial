@@ -234,11 +234,19 @@ $ <span class="kw">git</span> status
 <p>A <em>remote</em> saves the repo to another location such as a server (like GitHub)</p>
 <p>Save commits to a remote repository using</p>
 <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> push origin master</code></pre>
-<p>Where 'origin' is the remote's name and master is the current branch's name</p>
+<p>Where 'origin' is the remote's name and 'master' is the current branch's name</p>
 </section>
 <section id="lets-try-something-else-1" class="slide level1">
 <h1>Let's Try Something Else</h1>
 <h2 id="branches">Branches</h2>
+<p>What many beginner git repos look like:</p>
+<p><img src="images/git-linear-branch.png" alt="image" /></p>
+</section>
+<section id="lets-try-something-else-2" class="slide level1">
+<h1>Let's Try Something Else</h1>
+<h2 id="branches-1">Branches</h2>
+<p>Taking full advantage of git branching</p>
+<p><img src="images/git-branching.png" alt="image" /></p>
 </section>
     </div>
   </div>

@@ -258,4 +258,27 @@ Save commits to a remote repository using
 	
 Where 'origin' is the remote's name and 'master' is the current branch's name
 
+========================
+Let's Try Something Else
+========================
+
+--------
+Branches
+--------
+
+What many beginner git repos look like:
+
+.. image:: images/git-linear-branch.png
+
+========================
+Let's Try Something Else
+========================
+
+--------
+Branches
+--------
+
+Taking full advantage of git branching
+
+.. image:: images/git-branching.png
 
