@@ -239,3 +239,23 @@ Visual Overview
 ---------------
 
 .. image:: images/file-lifecycle.png
+
+========================
+Let's Try Something Else
+========================
+
+-------------------
+Remote Repositories
+-------------------
+
+A *remote* saves the repo to another location such as a server (like GitHub)
+
+Save commits to a remote repository using
+
+.. code-block:: bash
+	
+	$ git push origin master
+	
+Where 'origin' is the remote's name and 'master' is the current branch's name
+
+
