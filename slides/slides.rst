@@ -248,7 +248,7 @@ Let's Try Something Else
 Remote Repositories
 -------------------
 
-A *remote* saves the repo to another location such as a server (like GitHub)
+A *remote* is a copy of the repo in another location such as a server (like GitHub)
 
 Save commits to a remote repository using
 
