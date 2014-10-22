@@ -282,3 +282,61 @@ Taking full advantage of git branching
 
 .. image:: images/git-branching.png
 
+================
+Other Cool Stuff
+================
+
+--------
+Stashing
+--------
+
+You can use git stash in order to save changes to a branch 
+
+without actually committing
+
+This can be useful if you made changes that aren't working, 
+
+but need to go to another branch to do something else
+
+================
+Other Cool Stuff
+================
+-------
+Tagging
+-------
+
+Tag commits in order to give them an easier ID
+
+Makes it easier to revert back to or identify releases
+
+================
+Other Cool Stuff
+================
+-----
+Blame
+-----
+
+Shows who exactly committed each line of code
+
+Useful for identifying who introduced a bug
+
+Also useful for determining how much each person actually contributed
+
+================
+Other Cool Stuff
+================
+
+-----
+Reset
+-----
+
+Can be used to reset the repo to a previous commit
+
+------
+Bisect
+------
+
+Do a binary search on commits in order to determine when a bug was introduced
+
+
+

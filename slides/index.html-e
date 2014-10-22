@@ -231,7 +231,7 @@ $ <span class="kw">git</span> status
 <section id="lets-try-something-else" class="slide level1">
 <h1>Let's Try Something Else</h1>
 <h2 id="remote-repositories">Remote Repositories</h2>
-<p>A <em>remote</em> saves the repo to another location such as a server (like GitHub)</p>
+<p>A <em>remote</em> is a copy of the repo in another location such as a server (like GitHub)</p>
 <p>Save commits to a remote repository using</p>
 <pre class="sourceCode bash"><code class="sourceCode bash">$ <span class="kw">git</span> push origin master</code></pre>
 <p>Where 'origin' is the remote's name and 'master' is the current branch's name</p>
@@ -247,6 +247,34 @@ $ <span class="kw">git</span> status
 <h2 id="branches-1">Branches</h2>
 <p>Taking full advantage of git branching</p>
 <p><img src="images/git-branching.png" alt="image" /></p>
+</section>
+<section id="other-cool-stuff" class="slide level1">
+<h1>Other Cool Stuff</h1>
+<h2 id="stashing">Stashing</h2>
+<p>You can use git stash in order to save changes to a branch</p>
+<p>without actually committing</p>
+<p>This can be useful if you made changes that aren't working,</p>
+<p>but need to go to another branch to do something else</p>
+</section>
+<section id="other-cool-stuff-1" class="slide level1">
+<h1>Other Cool Stuff</h1>
+<h2 id="tagging">Tagging</h2>
+<p>Tag commits in order to give them an easier ID</p>
+<p>Makes it easier to revert back to or tag releases</p>
+</section>
+<section id="other-cool-stuff-2" class="slide level1">
+<h1>Other Cool Stuff</h1>
+<h2 id="blame">Blame</h2>
+<p>Shows who exactly committed each line of code</p>
+<p>Useful for identifying who introduced a bug</p>
+<p>Also useful for determining how much each person actually contributed</p>
+</section>
+<section id="other-cool-stuff-3" class="slide level1">
+<h1>Other Cool Stuff</h1>
+<h2 id="reset">Reset</h2>
+<p>Can be used to reset the repo to a previous commit</p>
+<h2 id="bisect">Bisect</h2>
+<p>Do a binary search on commits in order to determine when a bug was introduced</p>
 </section>
     </div>
   </div>
