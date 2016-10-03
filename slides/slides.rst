@@ -240,6 +240,25 @@ Visual Overview
 
 .. image:: images/file-lifecycle.png
 
+===================
+What Just Happened?
+===================
+
+-------------
+Check the Log
+-------------
+
+.. code-block:: bash
+
+	$ git log
+	commit c9fd3e8dc41e0649fc3ba0e88bcc2f41a97d8144
+	Author: rogerskw <rogerskw@miamioh.edu>
+	Date:   Wed Oct 22 15:00:53 2014 -0400
+
+    	asdf
+
+If you have many commits, the `less` command will be used.
+
 ========================
 Let's Try Something Else
 ========================
@@ -281,6 +300,59 @@ Branches
 Taking full advantage of git branching
 
 .. image:: images/git-branching.png
+
+
+=========
+Branching
+=========
+Create a new branch with
+
+.. code-block:: bash
+	
+	$ git branch newbranchname
+	
+Switch to the branch with 
+
+.. code-block:: bash
+
+	$ git checkout newbranchname
+	
+Make some changes and commit them
+
+=========
+Branching
+=========
+After committing, switch back to the 'master' branch
+
+.. code-block:: bash
+	
+	$ git checkout master
+
+Look for your changes
+
+--------------
+What happened?
+--------------
+
+=========
+Branching
+=========
+
+Merge your changes into the main development line
+
+.. code-block:: bash
+
+	$ git merge newbranchname
+	
+Now you should see your changes from your branch
+
+=========
+Branching
+=========
+
+Large projects will have **many** branches
+
+.. image:: images/large-branching.png
 
 ================
 Other Cool Stuff
@@ -339,4 +411,7 @@ Bisect
 Do a binary search on commits in order to determine when a bug was introduced
 
 
+==========
+Questions?
+==========
 
