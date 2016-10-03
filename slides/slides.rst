@@ -239,3 +239,179 @@ Visual Overview
 ---------------
 
 .. image:: images/file-lifecycle.png
+
+===================
+What Just Happened?
+===================
+
+-------------
+Check the Log
+-------------
+
+.. code-block:: bash
+
+	$ git log
+	commit c9fd3e8dc41e0649fc3ba0e88bcc2f41a97d8144
+	Author: rogerskw <rogerskw@miamioh.edu>
+	Date:   Wed Oct 22 15:00:53 2014 -0400
+
+    	asdf
+
+If you have many commits, the `less` command will be used.
+
+========================
+Let's Try Something Else
+========================
+
+-------------------
+Remote Repositories
+-------------------
+
+A *remote* is a copy of the repo in another location such as a server (like GitHub)
+
+Save commits to a remote repository using
+
+.. code-block:: bash
+	
+	$ git push origin master
+	
+Where 'origin' is the remote's name and 'master' is the current branch's name
+
+========================
+Let's Try Something Else
+========================
+
+--------
+Branches
+--------
+
+What many beginner git repos look like:
+
+.. image:: images/git-linear-branch.png
+
+========================
+Let's Try Something Else
+========================
+
+--------
+Branches
+--------
+
+Taking full advantage of git branching
+
+.. image:: images/git-branching.png
+
+
+=========
+Branching
+=========
+Create a new branch with
+
+.. code-block:: bash
+	
+	$ git branch newbranchname
+	
+Switch to the branch with 
+
+.. code-block:: bash
+
+	$ git checkout newbranchname
+	
+Make some changes and commit them
+
+=========
+Branching
+=========
+After committing, switch back to the 'master' branch
+
+.. code-block:: bash
+	
+	$ git checkout master
+
+Look for your changes
+
+--------------
+What happened?
+--------------
+
+=========
+Branching
+=========
+
+Merge your changes into the main development line
+
+.. code-block:: bash
+
+	$ git merge newbranchname
+	
+Now you should see your changes from your branch
+
+=========
+Branching
+=========
+
+Large projects will have **many** branches
+
+.. image:: images/large-branching.png
+
+================
+Other Cool Stuff
+================
+
+--------
+Stashing
+--------
+
+You can use git stash in order to save changes to a branch 
+
+without actually committing
+
+This can be useful if you made changes that aren't working, 
+
+but need to go to another branch to do something else
+
+================
+Other Cool Stuff
+================
+-------
+Tagging
+-------
+
+Tag commits in order to give them an easier ID
+
+Makes it easier to revert back to or identify releases
+
+================
+Other Cool Stuff
+================
+-----
+Blame
+-----
+
+Shows who exactly committed each line of code
+
+Useful for identifying who introduced a bug
+
+Also useful for determining how much each person actually contributed
+
+================
+Other Cool Stuff
+================
+
+-----
+Reset
+-----
+
+Can be used to reset the repo to a previous commit
+
+------
+Bisect
+------
+
+Do a binary search on commits in order to determine when a bug was introduced
+
+
+==========
+Questions?
+==========
+
